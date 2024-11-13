@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.userDashboard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+.left {
+  width: 25%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.nav a {
+  color: black;
+  margin: 20px;
+  font-size: 20px;
+  width: 200px;
+  transition: all ease-out 0.3s;
+}
+.nav a:hover {
+  background: red;
+  border-radius: 2rem;
+  transform: scale(1.1, 1.1);
+  transition: all ease-in 0.4s;
+}
+.nav i {
+  padding: 10px;
+}
+.userDashLeftDown {
+  border-top: rgb(43, 41, 41) solid 1px;
+  position: relative;
+  top: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.userDashLeftDown a {
+  margin-left: 20px;
+  padding: 10px;
+  color: black;
+}
+.userDashLeftDown a:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+  padding-left: 15px;
+}
+.right {
+  width: 75%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.rt-01{
+  width: 100%;
+  height: 40vh;
+  background: url(../image/usdb.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 1rem;
+  margin-top: 2vh;
+}
+.rt-01 p{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.rt-01-con{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.container{
+  margin-top: 10px;
+  padding: 10px;
+}
+table,
+tr {
+  padding: 10px;
+  margin: 5px;
+  border-collapse: collapse;
+  border-radius: 3rem;
+}
+table th,
+td {
+  padding: 10px 20px;
+  border: rgb(54, 49, 49) solid 1px;
+}
+table th {
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.name {
+  font-family: fantasy;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+span {
+  color: red;
+}
+.footer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer span {
+  color: red;
+}
+.social i {
+  font-size: 25px;
+  padding: 10px;
+}
+.back {
+  float: right;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

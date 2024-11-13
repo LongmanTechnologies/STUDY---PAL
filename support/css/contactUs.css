@@ -1,0 +1,126 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.container {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand p {
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.brand span {
+    color: rgb(41, 7, 109);
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 15px;
+    color: white;
+    background: black;
+    border-radius: 3rem;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.nav ul li:hover {
+    color: red;
+}
+.nav i{
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.content legend{
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 3rem;
+    width: 40%;
+}
+
+.content form input , textarea{
+    border-radius: 2rem;
+    text-wrap: wrap;
+    padding: 20px;
+    background-color: white;
+    outline: 0;
+    border: red solid 1px;
+    margin: 10px;
+    width: 70%;
+}
+
+.content form button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content form button:hover {
+    color: red;
+}
+.content i{
+    padding: 7px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    color: red;
+}

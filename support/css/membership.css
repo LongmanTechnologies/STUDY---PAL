@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+span {
+  color: red;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.card h2 {
+  margin-top: 0;
+}
+.back {
+  float: right;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.back {
+  background-color: #e74c3c;
+}
+.open_form {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.user_email {
+  padding: 10px;
+  background: aliceblue;
+  letter-spacing: 1px;
+  width: 20%;
+  border-radius: 2rem;
+}
+.form-popup {
+  display: none;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+#closeForm{
+  display: none;
+}
+
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+#payProgB,
+#payProgP,
+#payProgG {
+  display: none;
+}
+#terms {
+  display: none;
+}
+.planbtn {
+  color: white;
+  border: none;
+  outline: 0;
+  background: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.planbtn:hover {
+  color: red;
+}
+.payment {
+  display: flex;
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
+
+.payment button {
+  color: white;
+  background: black;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.payment button:hover {
+  color: red;
+}
+.payMet {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+}
+.payMet img {
+  width: 55px;
+}
